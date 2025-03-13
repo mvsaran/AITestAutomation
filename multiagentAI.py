@@ -7,7 +7,7 @@ from pydantic import SecretStr
 
 async def agent_task(task_description):
     """Creates and runs an AI agent for a given task."""
-    api_key = os.getenv("GEMINI_API_KEY", "AIzaSyCERo_dB9vo_AQ0bW8SZlMC5UK6izAljuI")
+    api_key = os.getenv("GEMINI_API_KEY", "AIzaSyCERo_dB9vjuI")
     llm = ChatGoogleGenerativeAI(model='gemini-2.0-flash-exp', api_key=SecretStr(api_key))
     agent = Agent(task_description, llm, use_vision=True)
     history = await agent.run()
