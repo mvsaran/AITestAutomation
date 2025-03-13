@@ -6,7 +6,7 @@ from langchain_google_genai import ChatGoogleGenerativeAI
 from pydantic import SecretStr
 
 async def MyntraAutomation():
-    os.environ["GEMINI_API_KEY"] = "AIzaSyCERo_dB9vo_AQ0bW8SZlMC5UK6izAljuI"  # Replace with your API key
+    os.environ["GEMINI_API_KEY"] = "AIzaSyCizAljuI"  # Replace with your API key
     task = (
         'Important: I am a UI Automation tester performing a detailed test on Myntra.'
         '1. Launch the website https://www.myntra.com/.'
