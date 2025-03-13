@@ -6,7 +6,7 @@ from langchain_google_genai import ChatGoogleGenerativeAI
 from pydantic import SecretStr
 
 async def SiteValidation():
-    os.environ["GEMINI_API_KEY"] = "AIzaSyCERo_dB9vo_AQ0bW8SZlMC5UK6izAljuI"
+    os.environ["GEMINI_API_KEY"] = "AIzaSyCERo_dB9vo_AQ0I"
     task = (
         'Important : Iam UI Automation tester validating the tasks'
         'Open website https://www.saucedemo.com/'
